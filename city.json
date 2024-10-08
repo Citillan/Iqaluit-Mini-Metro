@@ -737,6 +737,7 @@
 	],
 
 	"origin": [0,-500],
+
 	"zoom": {
 		"start": 1.20,
 		"end": 0.25,
@@ -745,6 +746,7 @@
 		"delay": 0,
 		"duration": 28
 	},
+
 	"startArea":{
 		"rightBottom": [0.2,-0.2],
 		"leftTop": [-0.2,0.2],
@@ -1377,6 +1379,7 @@
 		],
 		"special": ["DIAMOND", "DIAMOND", "DIAMOND", "DIAMOND", "CROSS", "CROSS", "EGG", "EGG"],
 	},
+
 	"passengerSpawnScale": 1.5,
 
 	"stationCapacity": 12,
@@ -1444,135 +1447,134 @@
 		},
 	],
 
-		"trainDefinition": "Icemetro",
+	"trainDefinition": "Icemetro",
 
-		"lines": [
-			{
-				"name": "L1",
-				"maxTrains": 2,
-				"allowedTrains": ["Locomotive", "Carriage", "Crossing"],
-			},
-			{
-				"name": "L2",
-				"maxTrains": 2,
-				"allowedTrains": ["Locomotive", "Carriage", "Crossing"],
-			},
-			{
-				"name": "L3",
-				"maxTrains": 2,
-				"allowedTrains": ["Locomotive", "Carriage", "Crossing"],
-			},
-			{
-				"name": "L4",
-				"maxTrains": 2,
-				"allowedTrains": ["Locomotive", "Carriage", "Crossing"],
-			},
-			{
-				"name": "L5",
-				"maxTrains": 2,
-				"allowedTrains": ["Locomotive", "Carriage", "Crossing"],
-			},
-			{
-				"name": "L6",
-				"maxTrains": 2,
-				"allowedTrains": ["Locomotive", "Carriage", "Crossing"],
-			},
-			{
-				"name": "L7",
-				"maxTrains": 2,
-				"allowedTrains": ["Locomotive", "Carriage", "Crossing"],
-			},
-			{
-				"name": "L8",
-				"maxTrains": 2,
-				"allowedTrains": ["Locomotive", "Carriage", "Crossing"],
-			},
-			{
-				"name": "L9",
-				"maxTrains": 2,
-				"allowedTrains": ["Locomotive", "Carriage", "Crossing"],
-			},
-			{
-				"name": "L10",
-				"maxTrains": 2,
-				"allowedTrains": ["Locomotive", "Carriage", "Crossing"],
-			},
-		],
+	"lines": [
+		{
+			"name": "L1",
+			"maxTrains": 2,
+			"allowedTrains": ["Locomotive", "Carriage", "Crossing"],
+		},
+		{
+			"name": "L2",
+			"maxTrains": 2,
+			"allowedTrains": ["Locomotive", "Carriage", "Crossing"],
+		},
+		{
+			"name": "L3",
+			"maxTrains": 2,
+			"allowedTrains": ["Locomotive", "Carriage", "Crossing"],
+		},
+		{
+			"name": "L4",
+			"maxTrains": 2,
+			"allowedTrains": ["Locomotive", "Carriage", "Crossing"],
+		},
+		{
+			"name": "L5",
+			"maxTrains": 2,
+			"allowedTrains": ["Locomotive", "Carriage", "Crossing"],
+		},
+		{
+			"name": "L6",
+			"maxTrains": 2,
+			"allowedTrains": ["Locomotive", "Carriage", "Crossing"],
+		},
+		{
+			"name": "L7",
+			"maxTrains": 2,
+			"allowedTrains": ["Locomotive", "Carriage", "Crossing"],
+		},
+		{
+			"name": "L8",
+			"maxTrains": 2,
+			"allowedTrains": ["Locomotive", "Carriage", "Crossing"],
+		},
+		{
+			"name": "L9",
+			"maxTrains": 2,
+			"allowedTrains": ["Locomotive", "Carriage", "Crossing"],
+		},
+		{
+			"name": "L10",
+			"maxTrains": 2,
+			"allowedTrains": ["Locomotive", "Carriage", "Crossing"],
+		},
+	],
 
-		"stations": [
+	"stations": [
 		{"tag":"StartPi", "type": "circle"},
 		{"tag":"Start4", "type": "square"},
 		{"tag":"Start3", "type": "triangle"},
 		{"tag":"StartKP", "type": "wedge"},
-		],
+	],
 
-		"transitions": [
-			{
-				"points": [
-					[-12000,0],
-					[0,0],
-				],
-				"id": "menu-game",
-				"duration": 4.0,
-				"rotationDuration": 0.0
-			},
-			{
-				"points": [
-					[0,0],
-					[0,-12000],
-				],
-				"id": "menu-pause",
-				"duration": 4.0,
-				"rotationDuration": 1.0
-			},
-		],
-
-		"preview": {
-			"window": {
-				"position": [-1200,-1300],
-				"size": 2400.0,
-			},
-			"hidePermanentLines": true,
-
-					"stations": [
-				{"tag":"blue1", "type": "circle", "position": [-272, 126], "ghost": false, "interchange": false},
-				{"tag":"blue2", "type": "square", "position": [-30, 126], "ghost": false, "interchange": false},
-				{"tag":"blue3", "type": "triangle", "position": [418, -25], "ghost": false, "interchange": false},
-				{"tag":"blue4", "type": "triangle", "position": [418, -440], "ghost": false, "interchange": false},
-				{"tag":"blue5", "type": "circle", "position": [418, -630], "ghost": false, "interchange": false},
-				{"tag":"blue6", "type": "circle", "position": [588, -720], "ghost": false, "interchange": false},
-				{"tag":"green3", "type": "circle", "position": [-30, -338], "ghost": false, "interchange": false},
-				{"tag":"green4", "type": "circle", "position": [162, -440], "ghost": false, "interchange": false},
-				{"tag":"green5", "type": "circle", "position": [645, -303], "ghost": false, "interchange": false},
-					],
-
-			"lines": [
-							{
-								"index": 1,
-					"links": [
-						{"station": "blue1", "stops": [ {"direction": "EAST", "platform": 0}, ], },
-						{"station": "blue2", "stops": [ {"direction": "WEST", "platform": 0}, {"direction": "EAST", "platform": 0}, ], },
-						{"station": "blue3", "stops": [ {"direction": "NORTHWEST", "platform": 0}, {"direction": "SOUTH", "platform": 0}, ], },
-						{"station": "blue4", "stops": [ {"direction": "NORTH", "platform": 0}, {"direction": "SOUTH", "platform": 0}, ], },
-						{"station": "blue5", "stops": [ {"direction": "NORTH", "platform": 0}, {"direction": "EAST", "platform": 0}, ], },
-						{"station": "blue6", "stops": [ {"direction": "NORTHWEST", "platform": 0}, ], },
-					],
-					"startAssets": ["Locomotive", "Locomotive", "Carriage", "Carriage"],
-					"canEditTrains": false
-				},
-				{
-					"index": 2,
-					"links": [
-						{"station": "blue1", "stops": [ {"direction": "EAST", "platform": 1}, ], },
-						{"station": "blue2", "stops": [ {"direction": "WEST", "platform": -1}, {"direction": "SOUTH", "platform": 0}, ], },
-						{"station": "green3", "stops": [ {"direction": "NORTH", "platform": 0}, {"direction": "EAST", "platform": 0}, ], },
-						{"station": "green4", "stops": [ {"direction": "NORTHWEST", "platform": 0}, {"direction": "EAST", "platform": 0}, ], },
-						{"station": "blue4", "stops": [ {"direction": "WEST", "platform": 0}, {"direction": "EAST", "platform": 0}, ], },
-						{"station": "green5", "stops": [ {"direction": "SOUTHWEST", "platform": 0}, ], },
-					],
-					"startAssets": ["Locomotive", "Locomotive", "Carriage", "Carriage"],
-					"canEditTrains": false
-				},
+	"transitions": [
+		{
+			"points": [
+				[-12000,0],
+				[0,0],
 			],
+			"id": "menu-game",
+			"duration": 4.0,
+			"rotationDuration": 0.0
 		},
-	}
+		{
+			"points": [
+				[0,0],
+				[0,-12000],
+			],
+			"id": "menu-pause",
+			"duration": 4.0,
+			"rotationDuration": 1.0
+		},
+	],
+
+	"preview": {
+		"window": {
+			"position": [-1200,-1300],
+			"size": 2400.0,
+		},
+		"hidePermanentLines": true,
+		"stations": [
+			{"tag":"blue1", "type": "circle", "position": [-272, 126], "ghost": false, "interchange": false},
+			{"tag":"blue2", "type": "square", "position": [-30, 126], "ghost": false, "interchange": false},
+			{"tag":"blue3", "type": "triangle", "position": [418, -25], "ghost": false, "interchange": false},
+			{"tag":"blue4", "type": "triangle", "position": [418, -440], "ghost": false, "interchange": false},
+			{"tag":"blue5", "type": "circle", "position": [418, -630], "ghost": false, "interchange": false},
+			{"tag":"blue6", "type": "circle", "position": [588, -720], "ghost": false, "interchange": false},
+			{"tag":"green3", "type": "circle", "position": [-30, -338], "ghost": false, "interchange": false},
+			{"tag":"green4", "type": "circle", "position": [162, -440], "ghost": false, "interchange": false},
+			{"tag":"green5", "type": "circle", "position": [645, -303], "ghost": false, "interchange": false},
+		],
+
+		"lines": [
+			{
+				"index": 1,
+				"links": [
+					{"station": "blue1", "stops": [ {"direction": "EAST", "platform": 0}, ], },
+					{"station": "blue2", "stops": [ {"direction": "WEST", "platform": 0}, {"direction": "EAST", "platform": 0}, ], },
+					{"station": "blue3", "stops": [ {"direction": "NORTHWEST", "platform": 0}, {"direction": "SOUTH", "platform": 0}, ], },
+					{"station": "blue4", "stops": [ {"direction": "NORTH", "platform": 0}, {"direction": "SOUTH", "platform": 0}, ], },
+					{"station": "blue5", "stops": [ {"direction": "NORTH", "platform": 0}, {"direction": "EAST", "platform": 0}, ], },
+					{"station": "blue6", "stops": [ {"direction": "NORTHWEST", "platform": 0}, ], },
+				],
+				"startAssets": ["Locomotive", "Locomotive", "Carriage", "Carriage"],
+				"canEditTrains": false
+			},
+			{
+				"index": 2,
+				"links": [
+					{"station": "blue1", "stops": [ {"direction": "EAST", "platform": 1}, ], },
+					{"station": "blue2", "stops": [ {"direction": "WEST", "platform": -1}, {"direction": "SOUTH", "platform": 0}, ], },
+					{"station": "green3", "stops": [ {"direction": "NORTH", "platform": 0}, {"direction": "EAST", "platform": 0}, ], },
+					{"station": "green4", "stops": [ {"direction": "NORTHWEST", "platform": 0}, {"direction": "EAST", "platform": 0}, ], },
+					{"station": "blue4", "stops": [ {"direction": "WEST", "platform": 0}, {"direction": "EAST", "platform": 0}, ], },
+					{"station": "green5", "stops": [ {"direction": "SOUTHWEST", "platform": 0}, ], },
+				],
+				"startAssets": ["Locomotive", "Locomotive", "Carriage", "Carriage"],
+				"canEditTrains": false
+			},
+		],
+	},
+}

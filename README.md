@@ -4,7 +4,7 @@
 
 
 
-Cross the Sylvia River and the Kuujassi Bay under the colourful northern lights in the bright night sky above.
+In the Land of the Midnight sun, cross the Sylvia River and the Kuujassi Bay to transport the people of the territorial capital of Nunavut.
 
 Mini Metro has finally made its arrival in the High Arctic, with the first ever release of Iqaluit.
 
@@ -21,13 +21,12 @@ Note: this map is currently in public beta and still being worked on, so there w
 
 
 
-**If you wish to contact me, use and refer to the resources provided below**
+**If you wish to contact me, refer to the resources provided below**
 
-Contact me using discord @
-citillan mapping#8186
+Contact me using discord @citillan
 
 This map and other maps that I have made, will be released on my github too @
-https://github.com/Citillan-Mapping
+https://github.com/Citillan
 
 Consider supporting me to help me keep on working and making maps like this one @ https://www.buymeacoffee.com/citillan
 
@@ -37,7 +36,7 @@ This map was made in commemoration of the Inuit peoples and to all residents of 
 This map was released on April 1, 2022, the same day 23 years ago when the Terrtory of Nunavut was created on.
 https://www.iqaluit.ca/
 
-**0.2.0 update**, Major Audio and Quality of life improvements
+**0.2.1 update**, Quality of life improvements
 Balence Details:
 
-- Light Car Speed Incresed 600 --> 750 (+25%)
+- Light Car Speed Decreased 750 --> 600 (-20%)

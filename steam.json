@@ -15,16 +15,14 @@
 
 
 
-	if you wish to contact me, use and refer to the resources provided below
+	if you wish to contact me, refer to the resources provided below
 
-	Contact me using discord @
-	citillan#8186
+	Contact me using discord @citillan
 
 	This map and other maps that I have made, will be released on my github too @
-	https://github.com/Citillan
+	https: //github.com/Citillan
 
-	Consider supporting me on my patreon to help me keep on working and making maps like this one @
-	https://www.buymeacoffee.com/citillan
+	Consider supporting me to help me keep on working and making maps like this one @ https: //www.buymeacoffee.com/citillan
 
 	This map is licensed under the GNU AGPLv3 (GNU AFFERO GENERAL PUBLIC LICENSE version 3), on both steam and github and have and will be so for all my assets.
 
@@ -35,19 +33,8 @@
 	"publishFieldId":"2790943655",
 
 	"itemTags": "North America,Alternative Future,Canada,Inuit,Arctic",
-	"itemChangelog": "0.2.0 update, Hello again yall!!! :)
+	"itemChangelog": "0.2.1 update, Quality of life improvements
 	Balance Details:
 
-	- Reduced station capacity 16 > 12
-	- Reduced interchange capacity 32 > 24
-	- Reduced station seperation scale 1.2 > 0.75
-	- Increased map end zoom .225 > .25
-	- Reworked weekly rewards
-	- Reworked gameplay map progression
-	- Updated descriptions
-	- Enabled proper map feature rounding
-	- Updated theme colours
-	- Major audio rework
-	- Updated contact information
-	- Updated donations page",
+	- Light Car Speed Decreased 750 --> 600 (-20%)",
 }
