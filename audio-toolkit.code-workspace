@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.txt": "json"
+		},
+		"json.schemas": [
+
+			{
+				"fileMatch": [
+					"examples/*.json",
+					"audio.json"
+				],
+				"url": "/schema.jsonc"
+			}
+		],
+	}
+}

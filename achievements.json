@@ -1,14 +1,14 @@
 {
 	"achievements": [
 	  	{
-				"id": "Arctic Beacon",
-				"type": "Score",
-				"city": "iqaluit",
-				"score": 500,
-				"icon": "passenger",
-				"difficultyPriority": 0,
-				"customDescription": "Score 500 points in Iqaluit.",
-				"restrictions": [],
-			},
+			"id": "North Star",
+			"type": "Score",
+			"city": "iqaluit",
+			"score": 500,
+			"icon": "passenger",
+			"difficultyPriority": 0,
+			"customDescription": "Score 500 points in Iqaluit.",
+			"restrictions": [],
+		},
 	],
 }

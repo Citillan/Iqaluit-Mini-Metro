@@ -1,6 +1,6 @@
 {
-	"author": "Kitaria Technical Media",
-	"id": "Iqaluit",
+	"author": "Citillan",
+	"id": "iqaluit",
 	"base": "city",
 
 	"constants": {
@@ -8,53 +8,53 @@
 		"Rhythms": [16, 12, 8, 4],
 		"LineLoop_Pulse": 16,
 
-		"PeepEmbarks_Flam_Pulse": 16,
-		"PeepEmbarks_Rhythm": 1,
-		"PeepAppears_Flam_Pulse": 16,
-		"PeepAppears_Step_Standard": 32,
-		"PeepAppears_Step_Special": 32,
-		"TrainArrives_Rhythm": 32,
-		"Percussion_PitchVar": 0.5,
+		"Steps_Double"               : [0, 2, 4, 6, 8, 10, 12, 14],
+		"Steps_Whole"                : [0, 2, 4, 6, 8, 10, 12, 14],
+		"Steps_DottedHalf"           : [0, 4, 8, 12],
+		"Steps_Half"                 : [0, 4, 8, 12],
+		"Steps_Quarter"              : [0, 4, 8, 12],
 
+		"PeepEmbarks_Flam_Pulse": 16,
+		"PeepEmbarks_Rhythm": 4,
+		"PeepAppears_Flam_Pulse": 16,
+		"PeepAppears_Step_Standard": 8,
+		"PeepAppears_Step_Special": 8,
+		"TrainArrives_Rhythm": 32,
+		"Percussion_PitchVar": 2,
+
+		"Flam_Limit"                 : 8,
 
 		"VoiceLimit_FadeTime": 0.75,
-		"VoiceLimit_Static": 3,
+		"VoiceLimit_Static": 2,
 
 		"Transpositions": [0],
 		"FadeIn_Times": [0.8, 0.6, 0.4, 0.2],
 
-		"Train_Engines": ["Orange" , "Scooter" , "TwelveSixteen" , "Shinkansen"]
+		"Train_Engines": ["Orange", "Scooter"]
 	},
 
 	"harmonies": {
-
+		"randomize": false,
 		"assignments": [0, 1, 2, 3, 4, 0, 1, 2, 3, 4],
 		"order": [0],
-
 		"weeks": [
-
-			{	"sequences": [["D#5" , "F5", "G5"] , ["C4" , "G3"] , ["G4" , "F4" , "A#4" , "D4"] , ["F4" , "D4" , "G4" , "E4"] , ["D#3" , "F3" , "D#3"] , ["A#4" , "G#4" , "G4"] , ["C5", "D4", "D#4"] , ["C4", "G3", "C4", "G4", "E4"] , ["C4", "D#4", "F4", "F#4", "F4", "D#4", "C4", "A#3", "D4", "C4"]],
-				"bass":  ["A"]
+			{	
+				"sequences": [
+					["A#4" , "G#4" , "G4"],
+					["C4" , "G4" , "A#4"],
+					["F4" , "D4" , "G4" , "E4"],
+					["D#3" , "F3" , "D#3"],
+					["C5", "D4", "D#4"],
+					["C4", "G3", "C4", "G4", "E4"],
+					["C4", "D#4", "F4", "F#4", "F4", "D#4", "C4", "A#3", "D4", "C4"]
+				],
+				"bass":  ["G", "D"],
 				"screens": {
-
-					"GameOver": ["F",	"F4", "G#4", "C#5", "F5"],
+					"GameOver": ["G",	"F4", "G#4", "C#5", "F5"],
 					"NewAsset": ["D",	"D5" , "F#5" , "A5"]
 				}
 			}
 
 		]
 	},
-
-	"modules": [
-		{
-			"id": "PeepImpatient",
-			"type": "PeepImpatient",
-			"filter": { "type": "PeepImpatient" },
-			"Gain": "PeepImpatient_Gain",
-			"Event_Limit": 1,
-			"pulse": 1
-		},
-		]
 }
-
-audio.alpha.yfb.jst_1

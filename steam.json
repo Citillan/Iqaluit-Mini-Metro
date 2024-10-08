@@ -1,0 +1,53 @@
+{
+	"itemTitle":"Iqaluit",
+	"itemDescription":"In the Land of the Midnight sun, cross the Sylvia River and the Kuujassi Bay to transport the people of the territorial capital of Nunavut.
+
+	Mini Metro has finally made its arrival in the High Arctic, with the first ever release of Iqaluit.
+
+	
+
+	Features and new things to come!!!
+
+	* Bug fixes, new challenges, and upcoming new features to make your playing experiences much better.
+	* 10 lines for the city to run on!!!
+
+	Note: this map is currently in public beta and still being worked on, so there will be issues and bugs popping up here and there, there is no guarantee that this map will work perfectly or stably. Any help, advice, critisim, and/or suggestion is greatly appeciated and is recommended.
+
+
+
+	if you wish to contact me, use and refer to the resources provided below
+
+	Contact me using discord @
+	citillan#8186
+
+	This map and other maps that I have made, will be released on my github too @
+	https://github.com/Citillan
+
+	Consider supporting me on my patreon to help me keep on working and making maps like this one @
+	https://www.buymeacoffee.com/citillan
+
+	This map is licensed under the GNU AGPLv3 (GNU AFFERO GENERAL PUBLIC LICENSE version 3), on both steam and github and have and will be so for all my assets.
+
+	This map was made in commemoration of the Inuit people and to all residents of the Arctic.
+	This map was first released on April 1, 2022, the same day 23 years ago when the Terrtory of Nunavut was created on.
+	https://www.iqaluit.ca/",
+
+	"publishFieldId":"2790943655",
+
+	"itemTags": "North America,Alternative Future,Canada,Inuit,Arctic",
+	"itemChangelog": "0.2.0 update, Hello again yall!!! :)
+	Balance Details:
+
+	- Reduced station capacity 16 > 12
+	- Reduced interchange capacity 32 > 24
+	- Reduced station seperation scale 1.2 > 0.75
+	- Increased map end zoom .225 > .25
+	- Reworked weekly rewards
+	- Reworked gameplay map progression
+	- Updated descriptions
+	- Enabled proper map feature rounding
+	- Updated theme colours
+	- Major audio rework
+	- Updated contact information
+	- Updated donations page",
+}

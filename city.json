@@ -3,14 +3,14 @@
 	"customName":"Iqaluit",
 	"customLocalName": "ᐃᖃᓗᐃᑦ",
 	"customLocalNameLocale": "iu_CA",
-	"customCountryName":"Citalli, Federal Technocratic Kingdom of / Canada, Dominion of",
-	"customDescription":"Cross the Sylvia River and the Kuujassi Bay under the colourful northern lights in the bright night sky above.",
+	"customCountryName":"Inuit Nunangat/Canada",
+	"customDescription":"In the Land of the Midnight sun, cross the Sylvia River and the Kuujassi Bay to transport the people of the territorial capital of Nunavut.",
 	"lineCount": 10,
 	"crossingStyle": "Bridge",
-	"audioLoadoutId": "Iqaluit",
+	"audioLoadoutId": "iqaluit",
 	"debugShowCityAreas": false,
 
-	"theme":"Inukshuk",
+	"theme":"Inuksuk",
 
 	"obstacles": [
 		{
@@ -25,7 +25,7 @@
 			"inverted": true,
 			"decoration": true,
 			"inPreview": false,
-			"cornerRadius": 10.0,
+			"cornerRadius": 1.0,
 		},
 		{
 			"points": [
@@ -41,8 +41,7 @@
 			"visual": true,
 			"inPreview": true,
 			"decoration": false,
-			"alpha": 255,
-			"cornerRadius": 10.0,
+			"cornerRadius": 1.0,
 		},
 		{
 			"points": [
@@ -285,7 +284,7 @@
 			"inverted": true,
 			"decoration": false,
 			"inPreview": true,
-			"cornerRadius": 10.0,
+			"cornerRadius": 50,
 			"fixPreview": true,
 		},
 
@@ -485,7 +484,7 @@
 			"inverted": true,
 			"decoration": false,
 			"inPreview": true,
-			"cornerRadius": 10.0,
+			"cornerRadius": 50,
 			"fixPreview": true,
 		},
 		{
@@ -697,7 +696,7 @@
 			"inverted": true,
 			"decoration": false,
 			"inPreview": true,
-			"cornerRadius": 10.0,
+			"cornerRadius": 50,
 			"fixPreview": true,
 		},
 		{
@@ -727,28 +726,28 @@
 				[309,-435],
 				[287,-479],
 			],
-			"note": "'Island in the middle of Kuujassi Bay'",
+			"note": "Island in the middle of Kuujassi Bay",
 			"visual": true,
 			"inverted": true,
 			"decoration": false,
 			"inPreview": true,
-			"cornerRadius": 10.0,
+			"cornerRadius": 50,
 			"fixPreview": true,
 		},
 	],
 
-	"origin": [0,0],
+	"origin": [0,-500],
 	"zoom": {
-		"start": 1.45,
-		"end": 0.225,
-		"earlyZoom": .45,
-		"lateZoom": 1.75,
+		"start": 1.20,
+		"end": 0.25,
+		"earlyZoom": 1.0,
+		"lateZoom": 0.5,
 		"delay": 0,
-		"duration": 49,
+		"duration": 28
 	},
 	"startArea":{
-		"rightBottom": [0.5,-0.5],
-		"leftTop": [-0.5,0.5],
+		"rightBottom": [0.2,-0.2],
+		"leftTop": [-0.2,0.2],
 	},
 
 	"cityAreas": [
@@ -775,10 +774,10 @@
 			],
 			"density": 1,
 			"stationSpawns": [
-				{"type": "CIRCLE", "weight": 1, "maximum": -1, "activeDay": -1},
-				{"type": "WEDGE", "weight": .70, "maximum": -1, "activeDay": -1},
-				{"type": "TRIANGLE", "weight": .85, "maximum": -1, "activeDay": -1},
-				{"type": "SPECIAL", "weight": .55, "maximum": -1, "activeDay": -1},
+				{"type": "CIRCLE", "weight": 1, "maximum": -1, "activeDay": 36},
+				{"type": "WEDGE", "weight": 0.75, "maximum": -1, "activeDay": 36},
+				{"type": "TRIANGLE", "weight": 0.75, "maximum": -1, "activeDay": 36},
+				{"type": "SPECIAL", "weight": 0.5, "maximum": -1, "activeDay": 36},
 			]
 		},
 		{
@@ -831,12 +830,12 @@
 					]
 				}
 			],
-			"density": 1.50,
+			"density": 1.25,
 			"stationSpawns": [
 				{"type": "CIRCLE", "weight": 1, "maximum": -1, "activeDay": -1},
-				{"type": "WEDGE", "weight": 0.85, "maximum": -1, "activeDay": -1},
-				{"type": "TRIANGLE", "weight": 0.85, "maximum": -1, "activeDay": -1},
-				{"type": "SPECIAL", "weight": 0.55, "maximum": -1, "activeDay": -1},
+				{"type": "WEDGE", "weight": 0.75, "maximum": -1, "activeDay": -1},
+				{"type": "TRIANGLE", "weight": 0.75, "maximum": -1, "activeDay": -1},
+				{"type": "SPECIAL", "weight": 0.25, "maximum": -1, "activeDay": -1},
 			]
 		},
 		{
@@ -871,14 +870,14 @@
 			],
 			"density": 1,
 			"stationSpawns": [
-				{"type": "PENTAGON", "weight": 1, "maximum": 1, "activeDay": 1},
-				{"type": "WEDGE", "weight": 1, "maximum": -1, "activeDay": 1},
+				{"type": "PENTAGON", "weight": 1, "maximum": 1, "activeDay": -1},
+				{"type": "WEDGE", "weight": 1, "maximum": -1, "activeDay": -1},
 				{"type": "SQUARE", "weight": 1, "maximum": -1, "activeDay": -1},
 				{"type": "TRIANGLE", "weight": 1, "maximum": -1, "activeDay": -1},
 			]
 		},
 		{
-			"label": "Iqaluit Airport",
+			"label": "Airport City",
 			"paths": [
 				{
 					"points": [
@@ -923,53 +922,11 @@
 					]
 				}
 			],
-			"density": 1.75,
+			"density": 1.25,
 			"stationSpawns": [
-				{"type": "WEDGE", "weight": .75, "maximum": 2, "activeDay": -1},
-				{"type": "SQUARE", "weight": 1.25, "maximum": 4, "activeDay": -1},
-				{"type": "SPECIAL", "weight": .50, "maximum": 1, "activeDay": -1},
-			]
-		},
-		{
-			"label": "island",
-			"paths": [
-				{
-					"points": [
-						[138.73021,-332.49327],
-						[155.84794,-332.32701],
-						[164.98611,-350.10972],
-						[219.43458,-365.80774],
-						[220.32178,-379.47495],
-						[250.84371,-400.37302],
-						[280.98897,-383.89299],
-						[291.39888,-392.85163],
-						[293.33926,-420.23293],
-						[304.37401,-437.01988],
-						[285.06293,-479.46259],
-						[307.15938,-481.6423],
-						[325.56273,-467.96848],
-						[344.85414,-524.67697],
-						[357.4455,-538.981],
-						[345.77149,-568.25543],
-						[353.79032,-583.16375],
-						[341.25106,-591.0708],
-						[333.78627,-608.49998],
-						[307.81084,-608.37471],
-						[294.87789,-597.03202],
-						[288.76106,-575.96948],
-						[253.72161,-574.41386],
-						[255.11974,-538.38517],
-						[235.36432,-518.9583],
-						[220.30344,-520.99419],
-						[192.4213,-434.63638],
-						[140.95084,-397.90727],
-						[126.29855,-350.10211],
-					]
-				}
-			],
-			"density": 1.5,
-			"stationSpawns": [
-				{"type": "PENTAGON", "weight": 1, "maximum": -1, "activeDay": -1},
+				{"type": "WEDGE", "weight": 0.75, "maximum": -1, "activeDay": -1},
+				{"type": "SQUARE", "weight": 1.75, "maximum": -1, "activeDay": -1},
+				{"type": "SPECIAL", "weight": 0.50, "maximum": -1, "activeDay": -1},
 			]
 		},
 		{
@@ -1018,7 +975,7 @@
 					]
 				}
 			],
-			"density": 1,
+			"density": 0.5,
 			"stationSpawns": [
 				{"type": "CIRCLE", "weight": 1, "maximum": -1, "activeDay": -1},
 			]
@@ -1068,10 +1025,10 @@
 					]
 				}
 			],
-			"density": 2,
+			"density": 1.5,
 			"stationSpawns": [
-				{"type": "CIRCLE", "weight": 1, "maximum": -1, "activeDay": -1},
-				{"type": "WEDGE", "weight": 0.5, "maximum": -1, "activeDay": -1},
+				{"type": "CIRCLE", "weight": 1, "maximum": -1, "activeDay": 36},
+				{"type": "WEDGE", "weight": 0.5, "maximum": -1, "activeDay": 36},
 			]
 		},
 		{
@@ -1100,11 +1057,180 @@
 			],
 			"density": 1,
 			"stationSpawns": [
-				{"type": "GEM", "weight": 1, "maximum": -1, "activeDay": -1},
+				{"type": "CIRCLE", "weight": 1, "maximum": -1, "activeDay": 36},
+			]
+		}
+		{
+			"label": "Road to Nowhere",
+			"paths": [
+				{
+					"points": [
+						[-59.985068,728.67115],
+						[86.043388,748.90308],
+						[124.1622,836.92014],
+						[465.13724,563.2474],
+						[721.12245,560.57326],
+						[710.789,521.33998],
+						[688.84416,480.25953],
+						[660.90705,464.47843],
+						[637.55131,439.58298],
+						[625.04554,404.11665],
+						[633.57251,362.09131],
+						[655.40041,311.8492],
+						[665.16931,270.70826],
+						[676.27025,241.65372],
+						[605.2964,278.11767],
+						[566.06421,282.79504],
+						[565.30397,255.88805],
+						[533.23683,245.04509],
+						[567.35024,200.52739],
+						[656.44256,141.62557],
+						[486.84469,156.66388],
+						[443.59572,183.88999],
+						[356.75895,258.47518],
+						[315.20337,274.47781],
+						[269.39461,347.53244],
+						[167.64041,399.87097],
+						[2.8671522,529.03984],
+						[4.851115,607.23231],
+						[-48.116224,605.85178],
+						[-38.591947,623.91746],
+					]
+				}
+			],
+			"density": 1.25,
+			"stationSpawns": [
+				{"type": "SQUARE", "weight": .5, "maximum": -1, "activeDay": 36},
+				{"type": "WEDGE", "weight": 1, "maximum": -1, "activeDay": 36},
+				{"type": "TRIANGLE", "weight": .5, "maximum": -1, "activeDay": 36},
 			]
 		},
 		{
-			"label": "New Iqaluit",
+			"label": "Happy Valley",
+			"paths": [
+				{
+					"points": [
+						[165.99149,394.71985],
+						[266.02817,343.40752],
+						[310.22485,265.98264],
+						[196.74453,85.411542],
+						[136.86956,87.091172],
+						[116.12171,94.964072],
+						[99.956095,118.20482],
+						[73.98744,105.07559],
+						[-6.9048948,189.67786],
+						[62.453016,305.52658],
+						[82.361521,315.44806],
+						[107.54209,366.86493],
+					]
+				}
+			],
+			"density": 1,
+			"stationSpawns": [
+				{"type": "CIRCLE", "weight": 1, "maximum": -1, "activeDay": -1},
+				{"type": "TRIANGLE", "weight": 1, "maximum": -1, "activeDay": -1},
+				{"type": "WEDGE", "weight": 1, "maximum": -1, "activeDay": -1},
+			]
+		},
+		{
+			"label": "Tundra Ridge",
+			"paths": [
+				{
+					"points": [
+						[320.64375,259.60784],
+						[354.62915,246.21148],
+						[437.76727,172.4479],
+						[487.04086,146.47325],
+						[660.31845,130.74032],
+						[707.62828,113.02054],
+						[813.96946,-7.459596],
+						[896.90173,-14.724886],
+						[872.53043,-42.720496],
+						[885.03688,-174.42874],
+						[833.00311,-173.11825],
+						[760.41997,-154.32627],
+						[647.86636,-85.496806],
+						[607.79044,-73.468386],
+						[552.07939,-74.765646],
+						[515.08516,-84.839536],
+						[499.2676,-103.16875],
+						[475.12692,-106.11903],
+						[440.57162,-82.497936],
+						[402.03183,-84.966876],
+						[365.01004,-75.535586],
+						[349.85194,-60.968246],
+						[323.71564,-49.071196],
+						[303.50177,-28.700446],
+						[282.47704,15.258314],
+						[259.59117,34.554658],
+						[252.77301,58.854648],
+						[227.39545,57.502618],
+						[202.51188,83.065382],
+					]
+				}
+			],
+			"density": 1,
+			"stationSpawns": [
+				{"type": "CIRCLE", "weight": -1, "maximum": -1, "activeDay": -1},
+				{"type": "TRIANGLE", "weight": -1, "maximum": -1, "activeDay": -1},
+			]
+		},
+		{
+			"label": "New Arctic College",
+			"paths": [
+				{
+					"points": [
+						[-721.92234,797.37874],
+						[-965.97862,1034.531],
+						[-1046.8807,1048.8528],
+						[-1047.4105,1104.1544],
+						[-1132.2283,1227.7688],
+						[-1153.4208,1332.4417],
+						[-1323.1544,1527.2719],
+						[-1325.9652,1650.6082],
+						[-611.07159,1638.7271],
+						[-484.6653,1230.0372],
+						[-520.98017,1091.1775],
+						[-650.92649,1171.8371],
+						[-619.87848,910.18984],
+						[-636.49111,798.85723],
+					]
+				}
+			],
+			"density": 1.5,
+			"stationSpawns": [
+				{"type": "CIRCLE", "weight": 1, "maximum": -1, "activeDay": 36},
+				{"type": "WEDGE", "weight": 1, "maximum": -1, "activeDay": 36},
+				{"type": "SQUARE", "weight": 1, "maximum": -1, "activeDay": 36},
+				{"type": "SPECIAL", "weight": 1, "maximum": -1, "activeDay": 36},
+			]
+		},
+		{
+			"label": "Air Base",
+			"paths": [
+				{
+					"points": [
+						[1550.3761,159.26778],
+						[2430.5489,-548.7026],
+						[2568.2198,-893.38471],
+						[2669.915,-947.68061],
+						[2668.475,-1067.8689],
+						[2263.5549,-1084.0409],
+						[2117.4267,-869.83201],
+						[2163.9769,-770.27274],
+						[2029.9529,-546.1612],
+						[1627.6662,-220.03465],
+						[1537.2156,-196.97612],
+					]
+				}
+			],
+			"density": 1,
+			"stationSpawns": [
+				{"type": "CIRCLE", "weight": 1, "maximum": -1, "activeDay": 36},
+			]
+		},
+		{
+			"label": "Territorial Park",
 			"paths": [
 				{
 					"points": [
@@ -1168,223 +1294,93 @@
 					]
 				}
 			],
-			"density": 1.5,
+			"density": 0.75,
 			"stationSpawns": [
-				{"type": "TRIANGLE", "weight": 0.8, "maximum": -1, "activeDay": -1},
-				{"type": "SPECIAL", "weight": 0.5, "maximum": -1, "activeDay": -1},
-				{"type": "WEDGE", "weight": 1.2, "maximum": -1, "activeDay": -1},
-				{"type": "CIRCLE", "weight": 1, "maximum": -1, "activeDay": -1},
+				{"type": "EGG", "weight": 1.2, "maximum": -1, "activeDay": -1},
+				{"type": "WEDGE", "weight": 0.5, "maximum": -1, "activeDay": -1},
 			]
 		},
 		{
-			"label": "Road to Nowhere",
+			"label": "island",
 			"paths": [
 				{
 					"points": [
-						[-59.985068,728.67115],
-						[86.043388,748.90308],
-						[124.1622,836.92014],
-						[465.13724,563.2474],
-						[721.12245,560.57326],
-						[710.789,521.33998],
-						[688.84416,480.25953],
-						[660.90705,464.47843],
-						[637.55131,439.58298],
-						[625.04554,404.11665],
-						[633.57251,362.09131],
-						[655.40041,311.8492],
-						[665.16931,270.70826],
-						[676.27025,241.65372],
-						[605.2964,278.11767],
-						[566.06421,282.79504],
-						[565.30397,255.88805],
-						[533.23683,245.04509],
-						[567.35024,200.52739],
-						[656.44256,141.62557],
-						[486.84469,156.66388],
-						[443.59572,183.88999],
-						[356.75895,258.47518],
-						[315.20337,274.47781],
-						[269.39461,347.53244],
-						[167.64041,399.87097],
-						[2.8671522,529.03984],
-						[4.851115,607.23231],
-						[-48.116224,605.85178],
-						[-38.591947,623.91746],
+						[138.73021,-332.49327],
+						[155.84794,-332.32701],
+						[164.98611,-350.10972],
+						[219.43458,-365.80774],
+						[220.32178,-379.47495],
+						[250.84371,-400.37302],
+						[280.98897,-383.89299],
+						[291.39888,-392.85163],
+						[293.33926,-420.23293],
+						[304.37401,-437.01988],
+						[285.06293,-479.46259],
+						[307.15938,-481.6423],
+						[325.56273,-467.96848],
+						[344.85414,-524.67697],
+						[357.4455,-538.981],
+						[345.77149,-568.25543],
+						[353.79032,-583.16375],
+						[341.25106,-591.0708],
+						[333.78627,-608.49998],
+						[307.81084,-608.37471],
+						[294.87789,-597.03202],
+						[288.76106,-575.96948],
+						[253.72161,-574.41386],
+						[255.11974,-538.38517],
+						[235.36432,-518.9583],
+						[220.30344,-520.99419],
+						[192.4213,-434.63638],
+						[140.95084,-397.90727],
+						[126.29855,-350.10211],
 					]
 				}
 			],
-			"density": 1.1,
+			"density": 2,
 			"stationSpawns": [
-				{"type": "SQUARE", "weight": .5, "maximum": -1, "activeDay": -1},
-				{"type": "WEDGE", "weight": 1, "maximum": -1, "activeDay": -1},
-				{"type": "TRIANGLE", "weight": .5, "maximum": -1, "activeDay": -1},
+				{"type": "PENTAGON", "weight": 1, "maximum": -1, "activeDay": 36},
 			]
 		},
-		{
-			"label": "Happy Valley",
-			"paths": [
-				{
-					"points": [
-						[165.99149,394.71985],
-						[266.02817,343.40752],
-						[310.22485,265.98264],
-						[196.74453,85.411542],
-						[136.86956,87.091172],
-						[116.12171,94.964072],
-						[99.956095,118.20482],
-						[73.98744,105.07559],
-						[-6.9048948,189.67786],
-						[62.453016,305.52658],
-						[82.361521,315.44806],
-						[107.54209,366.86493],
-					]
-				}
-			],
-			"density": 1.9,
-			"stationSpawns": [
-				{"type": "CIRCLE", "weight": 1, "maximum": -1, "activeDay": -1},
-				{"type": "TRIANGLE", "weight": 1, "maximum": -1, "activeDay": -1},
-				{"type": "WEDGE", "weight": 1, "maximum": -1, "activeDay": -1},
-			]
-		},
-		{
-			"label": "Tundra Ridge",
-			"paths": [
-				{
-					"points": [
-						[320.64375,259.60784],
-						[354.62915,246.21148],
-						[437.76727,172.4479],
-						[487.04086,146.47325],
-						[660.31845,130.74032],
-						[707.62828,113.02054],
-						[813.96946,-7.459596],
-						[896.90173,-14.724886],
-						[872.53043,-42.720496],
-						[885.03688,-174.42874],
-						[833.00311,-173.11825],
-						[760.41997,-154.32627],
-						[647.86636,-85.496806],
-						[607.79044,-73.468386],
-						[552.07939,-74.765646],
-						[515.08516,-84.839536],
-						[499.2676,-103.16875],
-						[475.12692,-106.11903],
-						[440.57162,-82.497936],
-						[402.03183,-84.966876],
-						[365.01004,-75.535586],
-						[349.85194,-60.968246],
-						[323.71564,-49.071196],
-						[303.50177,-28.700446],
-						[282.47704,15.258314],
-						[259.59117,34.554658],
-						[252.77301,58.854648],
-						[227.39545,57.502618],
-						[202.51188,83.065382],
-					]
-				}
-			],
-			"density": 1,
-			"stationSpawns": [
-				{"type": "CIRCLE", "weight": 1, "maximum": -1, "activeDay": -1},
-				{"type": "TRIANGLE", "weight": 1, "maximum": -1, "activeDay": -1},
-			]
-		},
-		{
-			"label": "University of Iqaluit",
-			"paths": [
-				{
-					"points": [
-						[-721.92234,797.37874],
-						[-965.97862,1034.531],
-						[-1046.8807,1048.8528],
-						[-1047.4105,1104.1544],
-						[-1132.2283,1227.7688],
-						[-1153.4208,1332.4417],
-						[-1323.1544,1527.2719],
-						[-1325.9652,1650.6082],
-						[-611.07159,1638.7271],
-						[-484.6653,1230.0372],
-						[-520.98017,1091.1775],
-						[-650.92649,1171.8371],
-						[-619.87848,910.18984],
-						[-636.49111,798.85723],
-					]
-				}
-			],
-			"density": 1.7,
-			"stationSpawns": [
-				{"type": "CIRCLE", "weight": 1, "maximum": -1, "activeDay": -1},
-				{"type": "WEDGE", "weight": 1, "maximum": -1, "activeDay": -1},
-				{"type": "SQUARE", "weight": 1, "maximum": -1, "activeDay": -1},
-				{"type": "SPECIAL", "weight": 1, "maximum": -1, "activeDay": -1},
-			]
-		},
-		{
-			"label": "Industial City",
-			"paths": [
-				{
-					"points": [
-						[1550.3761,159.26778],
-						[2430.5489,-548.7026],
-						[2568.2198,-893.38471],
-						[2669.915,-947.68061],
-						[2668.475,-1067.8689],
-						[2263.5549,-1084.0409],
-						[2117.4267,-869.83201],
-						[2163.9769,-770.27274],
-						[2029.9529,-546.1612],
-						[1627.6662,-220.03465],
-						[1537.2156,-196.97612],
-					]
-				}
-			],
-			"density": 1,
-			"stationSpawns": [
-				{"type": "CIRCLE", "weight": 1, "maximum": -1, "activeDay": -1},
-			]
-		},
-
 	],
 
-	"stationSeparationScale": .75,
+	"stationSeparationScale": 0.7,
 
 	"stationSpawns": {
 		"cooldown": 0,
 		"schedule": [
 			{
-				"numDays": 4,
+				"numDays": 7,
 				"randomness": 1.0,
 				"types": ["CIRCLE","CIRCLE","TRIANGLE","SQUARE","WEDGE","SPECIAL"]
 			},
 			{
-				"numDays": 4,
+				"numDays": 7,
 				"randomness": 1.0,
 				"types": ["CIRCLE","TRIANGLE","TRIANGLE","SQUARE","WEDGE","SPECIAL"]
 			},
 			{
-				"numDays": 4,
+				"numDays": 7,
 				"randomness": 1.0,
 				"types": ["CIRCLE","TRIANGLE","SQUARE","SQUARE","WEDGE","SPECIAL"]
 			},
 			{
-				"numDays": 4,
+				"numDays": 7,
 				"randomness": 1.0,
 				"types": ["CIRCLE","TRIANGLE","SQUARE","WEDGE","SPECIAL","SPECIAL"]
 			},
 			{
-				"numDays": 4,
+				"numDays": 7,
 				"randomness": 1.0,
 				"types": ["CIRCLE","TRIANGLE","SQUARE","WEDGE","WEDGE","SPECIAL"]
 			},
 		],
-		"special": ["DIAMOND", "CROSS"],
+		"special": ["DIAMOND", "DIAMOND", "DIAMOND", "DIAMOND", "CROSS", "CROSS", "EGG", "EGG"],
 	},
-	"passengerSpawnScale": 1.9,
+	"passengerSpawnScale": 1.5,
 
-	"stationCapacity": 16,
-	"interchangeCapacity": 32,
+	"stationCapacity": 12,
+	"interchangeCapacity": 24,
 	"upgrades": {
 		"initial": [
 			"Line",
@@ -1395,23 +1391,22 @@
 			"Locomotive",
 			"Crossing",
 			"Crossing",
-			"Crossing",
 		],
-		"numOptions": [2,2],
+		"numOptions": [1,2],
 		"unlocks": [
 			[
-				{"type":"Line","max": 0,"count": 1,"weight": 1.0,"week": 0},
-				{"type":"Locomotive","max": 0,"count": 1,"weight": 1.25,"week": 0},
-				{"type":"Carriage","max": 0,"count": 1,"weight": 1.25,"week": 0},
-				{"type":"Interchange","max": 0,"count": 1,"weight": 1.0,"week": 0},
+				{"type":"Line","max": 7,"count": 1,"weight": 1.2,"week": 0},
+				{"type":"Interchange","max": 0,"count": 1,"weight": 0.8,"week": 5},
+			],
+			[
+				{"type":"Locomotive","max": 0,"count": 1,"weight": 1.0,"week": 0},
+				{"type":"Carriage","max": 0,"count": 1,"weight": 1.0,"week": 0},
 				{"type":"Crossing","max": 0,"count": 1,"weight": 1.0,"week": 0},
 			],
 			[
-				{"type":"Line","max": 0,"count": 1,"weight": 1.0,"week": 0},
 				{"type":"Locomotive","max": 0,"count": 1,"weight": 1.0,"week": 0},
 				{"type":"Carriage","max": 0,"count": 1,"weight": 1.0,"week": 0},
-				{"type":"Interchange","max": 0,"count": 1,"weight": 1.25,"week": 0},
-				{"type":"Crossing","max": 0,"count": 1,"weight": 1.25,"week": 0},
+				{"type":"Crossing","max": 0,"count": 1,"weight": 1.0,"week": 0},
 			],
 		]
 	},
@@ -1419,20 +1414,20 @@
 	"assetNames": [
 		{
 			"asset": "Line",
-			"title": "Icemetro Line",
+			"title": "Light Rail Line",
 			"description": "A new line for the Iqaluit Metro",
 			"forceDescription": true,
 		},
 		{
 			"asset": "Locomotive",
 			"title": "Light Car",
-			"description": "A sleek and modern metro vehicle",
+			"description": "A new vehicle for a line",
 			"forceDescription": true,
 		},
 		{
 			"asset": "Interchange",
-			"title": "Metro Plaza",
-			"description": "An expansion to an Icemetro station",
+			"title": "Plaza",
+			"description": "An expansion for a station",
 			"forceDescription": true,
 		},
 		{
@@ -1504,32 +1499,32 @@
 			},
 		],
 
-				"stations": [
-				{"tag":"StartPi", "type": "circle"},
-				{"tag":"Start4", "type": "square"},
-				{"tag":"Start3", "type": "triangle"},
-				{"tag":"StartKP", "type": "wedge"},
-				],
+		"stations": [
+		{"tag":"StartPi", "type": "circle"},
+		{"tag":"Start4", "type": "square"},
+		{"tag":"Start3", "type": "triangle"},
+		{"tag":"StartKP", "type": "wedge"},
+		],
 
 		"transitions": [
 			{
 				"points": [
-					[-13000,0],
+					[-12000,0],
 					[0,0],
 				],
 				"id": "menu-game",
-				"duration": 5.0,
+				"duration": 4.0,
 				"rotationDuration": 0.0
 			},
 			{
 				"points": [
-					[13000,700],
 					[0,0],
+					[0,-12000],
 				],
 				"id": "menu-pause",
-				"duration": 1.0,
-				"rotationDuration": 0.25
-			}
+				"duration": 4.0,
+				"rotationDuration": 1.0
+			},
 		],
 
 		"preview": {

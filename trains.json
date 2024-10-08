@@ -1,13 +1,13 @@
 {
 	"id": "Icemetro",
-	"capacity": 12,
+	"capacity": 8,
 	"locomotives": [
 		{
 			"type": "Locomotive",
-			"speed": 750,
+			"speed": 600,
 			"acceleration": 100,
 			"deceleration": 150,
-			"capacity": 12
+			"capacity": 8
 		}
 	]
 }

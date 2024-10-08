@@ -1,46 +1,46 @@
 {
-	"name": "Inukshuk",
+	"name": "Inuksuk",
 	"backgroundColor": {
-		"day": [205,210,225],
-		"night": [65,75,95]
+		"day": [216,222,233],
+		"night": [66,75,93]
 	},
 	"peepColor": {
-		"day": [145,145,145],
-		"night": [230,235,240]
+		"day": [190,190,190],
+		"night": [190,190,190]
 	},
 	"waterColor": {
 		"internal": {
-			"day": [95,130,170],
-			"night": [95,130,170],
+			"day": [100,149,237],
+			"night": [95,130,170]
 		},
 		"outline": {
-			"day": [235,240,245],
-			"night": [55,60,75],
+			"day": [106,90,205],
+			"night": [55,60,75]
 		},
-		"outlineWidth": 3.5,
+		"outlineWidth": 4,
 		"previewOutlineWidth": 1,
 	},
 	"stationColor": {
 		"internal": {
 			"day": [200,200,200],
-			"night": [90,90,90],
+			"night": [90,90,90]
 		},
 		"outline": {
 			"day": [145,145,145],
-			"night": [145,145,145],
+			"night": [145,145,145]
 		},
-		"outlineWidth": 3.0
+		"outlineWidth": 4.0
 	},
 	"lineColors": [
-		{"day": [190,95,105], "note": "Line 1"},
-		{"day": [210,135,110], "note": "Line 2"},
-		{"day": [235,200,140], "note": "Line 3"},
-		{"day": [165,190,140], "note": "Line 4"},
-		{"day": [95,130,170], "note": "Line 5"},
-		{"day": [180,140,175], "note": "Line 6"},
-		{"day": [220,170,175], "note": "Line 7"},
-		{"day": [170,185,205], "note": "Line 8"},
-		{"day": [190,130,105], "note": "Line 9"},
-		{"day": [180,90,100], "note": "Line 10"},
+		{"day": [191,97,106], "note": "Line 1"},
+		{"day": [203,132,109], "note": "Line 2"},
+		{"day": [235,203,139], "note": "Line 3"},
+		{"day": [163,190,140], "note": "Line 4"},
+		{"day": [94,129,172], "night": [100,149,237], "note": "Line 5"},
+		{"day": [180,142,173], "note": "Line 6"},
+		{"day": [193,127,107], "note": "Line 7"},
+		{"day": [8, 140, 232], "note": "Line 8"},
+		{"day": [170,185,205], "night": [200,200,200], "note": "Line 9"},
+		{"day": [210,180,140], "note": "Line 10"},
 	]
 }
